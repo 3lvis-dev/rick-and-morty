@@ -1,0 +1,36 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  --primary-color: #05292E;
+  --color-card: #062226;
+  --white:rgba(255, 255, 255, 0.87); 
+  color: rgba(255, 255, 255, 0.87);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+
+/* <=================== GENERAL STYLE ===================> */
+body {
+  background-color: var(--primary-color);
+}
+
+h1,h2 {
+  color: rgba(255, 255, 255, 0.87);
+}
+h3,h4,h5 {
+  color: #7E7E7E;
+}
+ul {
+  list-style: none;
+}
+li {
+  color: rgba(255, 255, 255, 0.87);
+}
